@@ -1,4 +1,4 @@
-name: Churn Pipeline CI
+name: Churn PipelineCI
 
 on:
   push:
