@@ -1,0 +1,12 @@
+name: Churn PipelineCI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'churn_pipeline/**'
+      - '.github/workflows/**'
+  pull_request:
+    paths:
+      - 'churn_pipeline/**'
+      - '.github/workflows/**'
