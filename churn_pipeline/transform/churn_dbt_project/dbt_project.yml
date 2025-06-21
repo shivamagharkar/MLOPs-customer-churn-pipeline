@@ -1,0 +1,13 @@
+name: 'churn_dbt_project'
+version: '1.0'
+config-version: 2
+
+profile: churn_dbt
+
+models:
+  churn_dbt_project:
+    staging:
+      materialized: view
+    marts:
+      materialized: table
+ 

@@ -1,0 +1,6 @@
+# docker-compose.override.yaml
+version: '3'
+services:
+  postgres:
+    ports:
+      - "5433:5432" 
